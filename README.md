@@ -2,16 +2,16 @@
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_815ff"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+  <div id="tradingview_852ac"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/ETHUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">ETHUSD Chart</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
   {
   "autosize": true,
-  "symbol": "NASDAQ:AAPL",
+  "symbol": "BITSTAMP:ETHUSD",
   "interval": "D",
-  "timezone": "America/New_York",
+  "timezone": "Etc/UTC",
   "theme": "light",
   "style": "1",
   "locale": "en",
@@ -19,7 +19,7 @@
   "enable_publishing": false,
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
-  "container_id": "tradingview_815ff"
+  "container_id": "tradingview_852ac"
 }
   );
   </script>
